@@ -1,0 +1,8 @@
+server:
+  port: 8090
+  context-path: /hello
+spring:
+  freemarker:
+    charset: utf-8
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
